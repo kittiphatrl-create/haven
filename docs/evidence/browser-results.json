@@ -115,6 +115,82 @@
   },
   "suites": [
     {
+      "title": "doorbell.spec.ts",
+      "file": "doorbell.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "doorbell renders both chimes only after a click and reset stops playback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1557,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T07:15:00.987Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0864d410e49e2f8929d4-8f5466e13188fedb92a2",
+          "file": "doorbell.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "event simulation still works if browser audio is unavailable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 330,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T07:15:02.703Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0864d410e49e2f8929d4-3b88971e1f88fb0ea1d1",
+          "file": "doorbell.spec.ts",
+          "line": 82,
+          "column": 1
+        }
+      ]
+    },
+    {
       "title": "workflow.spec.ts",
       "file": "workflow.spec.ts",
       "column": 0,
@@ -136,12 +212,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 880,
+                  "duration": 749,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:39.621Z",
+                  "startTime": "2026-10-22T07:15:03.099Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -170,12 +246,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 478,
+                  "duration": 463,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:40.801Z",
+                  "startTime": "2026-10-22T07:15:03.853Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -204,12 +280,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 386,
+                  "duration": 365,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:41.285Z",
+                  "startTime": "2026-10-22T07:15:04.320Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -238,12 +314,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 603,
+                  "duration": 579,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:41.676Z",
+                  "startTime": "2026-10-22T07:15:04.690Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -272,12 +348,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 364,
+                  "duration": 464,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:42.284Z",
+                  "startTime": "2026-10-22T07:15:05.273Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -311,7 +387,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:42.653Z",
+                  "startTime": "2026-10-22T07:15:05.743Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -340,12 +416,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 462,
+                  "duration": 468,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:43.075Z",
+                  "startTime": "2026-10-22T07:15:06.164Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -374,12 +450,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 435,
+                  "duration": 512,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:43.542Z",
+                  "startTime": "2026-10-22T07:15:06.636Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -408,12 +484,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 485,
+                  "duration": 516,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:43.982Z",
+                  "startTime": "2026-10-22T07:15:07.153Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -442,12 +518,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1080,
+                  "duration": 1086,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:44.473Z",
+                  "startTime": "2026-10-22T07:15:07.673Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -476,12 +552,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 25,
+                  "duration": 24,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T06:39:45.558Z",
+                  "startTime": "2026-10-22T07:15:08.764Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -499,9 +575,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-22T06:39:38.281Z",
-    "duration": 7622.353999999999,
-    "expected": 11,
+    "startTime": "2026-10-22T07:14:59.688Z",
+    "duration": 9522.230000000001,
+    "expected": 13,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

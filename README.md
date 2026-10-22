@@ -4,6 +4,8 @@
 
 A local hackathon web app that turns simulated home events into a calm conversation and a user-reviewed check-in. The complete workflow runs without an API key. All product UI is English.
 
+The **Simulate doorbell** button plays a short two-tone door chime using the Web Audio API. Sound starts only after a click, stops on Reset, and uses no third-party audio files.
+
 ![Haven project cover](docs/assets/haven-thumbnail.png)
 
 ## What is real vs. simulated

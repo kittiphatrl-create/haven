@@ -11,6 +11,7 @@ import {
 import { createEvent, createInitialState, demoReducer } from "@/lib/demo";
 import { replySchema, type ChatRequest, type EventType } from "@/lib/schema";
 import { ZodError } from "zod";
+import { useDoorbellSound } from "./use-doorbell-sound";
 
 export type AiMode = "loading" | "live" | "scripted" | "unavailable";
 type RequestError = {
@@ -41,6 +42,7 @@ function requestErrorMessage(error: unknown): string {
 }
 
 export function useDemo() {
+  const doorbell = useDoorbellSound();
   const [state, dispatch] = useReducer(
     demoReducer,
     undefined,
@@ -178,6 +180,7 @@ export function useDemo() {
   );
 
   function reset() {
+    doorbell.stop();
     active.current?.controller.abort();
     active.current = null;
     dispatch({ type: "reset" });
@@ -199,6 +202,7 @@ export function useDemo() {
   }
   function simulate(type: EventType) {
     dispatch({ type: "event", event: createEvent(type) });
+    if (type === "doorbell") void doorbell.play();
     setNotice("Simulated event added to the home timeline.");
   }
   return {

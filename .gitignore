@@ -1,5 +1,6 @@
 node_modules/
 .next/
+.vercel/
 out/
 coverage/
 test-results/
@@ -15,3 +16,5 @@ credentials*.json
 next-env.d.ts
 *.log
 .DS_Store
+
+.vercel
