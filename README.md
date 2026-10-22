@@ -4,6 +4,8 @@
 
 A local hackathon web app that turns simulated home events into a calm conversation and a user-reviewed check-in. The complete workflow runs without an API key. All product UI is English.
 
+![Haven project cover](docs/assets/haven-thumbnail.png)
+
 ## What is real vs. simulated
 
 | Real application behavior                                          | Simulated or unavailable                                                  |
@@ -22,7 +24,8 @@ This is a **simulated Alexa+ experience**, not an official device integration or
 Use Node.js 24 LTS (the version used during development) and npm. No database or account setup is needed.
 
 ```powershell
-cd F:\haven
+git clone https://github.com/kittiphatrl-create/haven.git
+cd haven
 npm ci
 npm run dev
 ```
@@ -134,6 +137,7 @@ Assistant instructions separate facts from unknowns and treat user/history/tool 
 
 - [Two-minute demo script](docs/DEMO_SCRIPT.md)
 - [Submission draft](docs/SUBMISSION.md)
+- [Full project story for Devpost](docs/DEVPOST_STORY.md)
 - [Product feedback templates](docs/PRODUCT_FEEDBACK.md)
 - [Observed friction log](docs/FRICTION_LOG.md)
 - [Design context](DESIGN.md)
