@@ -42,6 +42,8 @@ Additional documentation checks: `npm run format:check` passed. `npx --yes --pac
 
 **No OpenAI API key was configured and no real model request was made.** Live orchestration tests use a fake provider at the SDK boundary. Live-mode browser failure tests intercept requests inside Playwright. These demonstrate application behavior, not provider connectivity, real model grounding, latency, model access, or prompt-injection resistance in a deployed model.
 
-No public deployment, real device test, external messaging test, user study, screen-reader audit, or impact measurement was performed. Automated accessibility checks cover a subset of accessibility requirements. Manual visual inspection was performed on the captured desktop and mobile screenshots.
+No real device test, external messaging test, user study, screen-reader audit, or impact measurement was performed. Automated accessibility checks cover a subset of accessibility requirements. Manual visual inspection was performed on the captured desktop and mobile screenshots.
+
+Doorbell sound update: the application now plays a synthesized two-tone chime after a doorbell click. The updated local suite passes 34 unit tests and 13 browser tests. Real Web Audio analyser samples verify signal output during both chime strikes; Reset closes playback, and unavailable audio does not block event creation. Lint, TypeScript, and production build pass. The hosted Vercel scripted demo at https://haven-chi-amber.vercel.app also passed three browser smoke tests covering audio, audio failure, and the complete reviewed check-in workflow. No live model requests were made.
 
 The initial failed test runs and their causes are recorded in `FRICTION_LOG.md`; final result files are replaced by each new test run. Playwright emitted an environment warning that `NO_COLOR` was ignored while `FORCE_COLOR` was set. It did not fail the suite or affect application behavior.

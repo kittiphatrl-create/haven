@@ -6,6 +6,8 @@ A local hackathon web app that turns simulated home events into a calm conversat
 
 The **Simulate doorbell** button plays a short two-tone door chime using the Web Audio API. Sound starts only after a click, stops on Reset, and uses no third-party audio files.
 
+[Open the hosted scripted demo](https://haven-chi-amber.vercel.app).
+
 ![Haven project cover](docs/assets/haven-thumbnail.png)
 
 ## What is real vs. simulated
