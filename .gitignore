@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+coverage/
+test-results/
+playwright-report/
+.env*
+!.env.example
+*.pem
+*.key
+.secrets/
+secrets/
+credentials*.json
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.DS_Store
